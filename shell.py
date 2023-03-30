@@ -10,7 +10,7 @@ def information():
     canvas = tk.Canvas(root, bg="#ffffff", bd=0, width=50, height=10)
     canvas.pack(fill=tk.BOTH, expand=True)
     text = tk.Text(root)
-    text.insert(tk.END, "Информация о проекте\n Alpha V0.0.1\n РУС: Автор: Семён Васильев\nСоздано на Python\n Код: github.com/simonvasiliev/pptools-proekt\n\n ENG: Author: Simon Vasiliev\nCreated in Python\n Code: github.com/simonvasiliev/pptools-proekt")
+    text.insert(tk.END, "Информация о проекте\n Alpha V0.0.1\n RUS: Автор: Семён Васильев\nСоздано на Python\n Код: github.com/simonvasiliev/pptools-proekt\n\n ENG: Author: Simon Vasiliev\nCreated in Python\n Code: github.com/simonvasiliev/pptools-proekt")
     text.pack()
 
 root = tk.Tk()
